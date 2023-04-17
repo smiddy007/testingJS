@@ -6,3 +6,4 @@ function hashPassword(email, password) {
   var hash = algo.finalize()
   return hash.toString(crypto.enc.Base64)
 }
+
